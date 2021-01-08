@@ -1,0 +1,436 @@
+body {
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+    background-color: rgb(110, 136, 158);
+
+}
+
+/* Imagen de fondo */
+.fondo {
+    background-image: url("../img/design2_image1.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: middle;
+}
+
+.title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+.sub_title {
+    text-align: center;
+}
+
+/* Imagen de logo */
+.logo {
+    padding-top: 30px;
+    padding-left: 50px;
+    width: 15%;
+    float: left;
+}
+
+.events {
+    justify-content: center;
+    margin-left: 25%;
+    padding-right: 3em;
+    text-align: justify;
+}
+
+
+/* MENU */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: box-sizing;
+    float: right;
+}
+
+li {
+    float: right;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(38, 0, 128);
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* FIN MENU */
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 10px
+}
+
+.container {
+    padding-bottom: 100px;
+}
+
+.menu {
+    padding-top: 60px;
+    margin-left: 350px;
+}
+
+.aboute {
+    padding-top: 60px;
+    margin-left: 350px;
+}
+
+.espacio_about {
+    margin: 0px;
+}
+/* Lista y tablas*/
+
+.Aragua {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 0px solid rgb(54, 87, 197);
+    margin-left: 33%;
+    top: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .list {
+    left: 180px;
+  }
+  
+  ul.unorder {
+    left: 45px;
+    list-style-type: square;
+  }
+  
+  .Barquisimeto {
+    position: static;
+    margin: auto;
+    width: 90%;
+    border: 0px solid white;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+    top: 18px;
+  }
+  
+  .Lara {
+    position: static;
+    margin: auto;
+    width: 60%;
+    border: 0px solid white;
+    margin-left: 25%;
+    text-align: center;
+  }
+  
+  .Caracas {
+    position: static;
+    margin: auto;
+    width: 100%;
+    border: 0px solid white;
+    margin-left: 0;
+    margin-bottom: 30px;
+    text-align: left;
+    display: outline-block;
+  }
+  
+  .firstTable {
+    position: relative;
+    /* top: 240px; */
+    width: 60%;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin-left: 270px;
+  }
+  
+  th {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .Zulia {
+    position: absolute;
+    margin-top: 1300px;
+    margin: auto;
+    width: 90%;
+    border: 0px solid white;
+    margin-left: 270px;
+    padding-bottom: 50px;
+    border: 0px;
+  }
+  
+  .Valencia {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 0px solid transparent;
+    margin-left: 370px;
+    padding-bottom: 50px;
+  }
+
+  /* Formulario de Inscripcion */
+
+  .flex-container {
+    display: flex;
+    flex-grow: wrap;
+    flex-direction: column;
+    border: 10px;
+    justify-content: flex-start;
+    padding: 60px;
+    width: 100%;
+    border-width: 20px;
+    height: 100%;
+    background-color: #DCDCDC;
+}
+
+
+.item1 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item2 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item3 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item4 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item5 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item6 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item7 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item8 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item9 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item10 {
+  flex-basis: auto;
+  align-self: center;
+  background-color: #f1f1f1;
+  width: 900px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.item0 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.item12 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item13 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item14 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item15 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item16 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item17 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item18 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 18px;
+    margin-left: 0px;
+    margin-left: 0px;
+}
+
+.item19 {
+    flex-basis: auto;
+    align-self: center;
+    background-color: #f1f1f1;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.item20 {
+    align-self: center;
+    flex-basis: auto;
+    background-color: #DCDCDC;
+    width: 900px;
+    text-align: left;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.maps {
+    display: flex;
+    padding-top: 40px;
+    border: 0px;
+    margin: 0 auto;
+    padding-left: 5%;
+    width: 960px;
+    height: 560px;
+    flex-direction: row;
+    flex-flow: wrap;
+  }
+  .greenbay,
+  .ajkatzenmaier,
+  .howard {
+    flex: 2;
+    flex-basis: auto;
+    width: 300px;
+    height: 250px;
+  }
+  
+  .marjorie,
+  .north,
+  .south {
+    flex: 2;
+    flex-basis: auto;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+  }

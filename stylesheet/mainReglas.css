@@ -1,0 +1,109 @@
+body {
+    display: block;
+    margin: 8px;
+}
+/* LISTA*/
+.spartaco {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 1px solid white;
+    margin-left: 33%;
+    top: 0px;
+    margin-bottom: 50px;
+  }
+  
+  .list {
+    left: 180px;
+  }
+  
+  ul.unorder {
+    left: 45px;
+    list-style-type: square;
+  }
+  
+  .pelicano {
+    position: static;
+    margin: auto;
+    width: 90%;
+    border: 1px solid white;
+    margin-left: 20px;
+    margin-bottom: 18px;
+    margin-top: 0px;
+    top: 18px;
+  }
+  
+  .flash {
+    position: static;
+    margin: auto;
+    width: 60%;
+    border: 1px solid white;
+    margin-left: 25%;
+    text-align: center;
+  }
+  
+  .yuyo {
+    position: static;
+    margin: auto;
+    width: 100%;
+    border: 1px solid white;
+    margin-left: 0;
+    margin-bottom: 18px;
+    text-align: left;
+    display: inline-block;
+  }
+  
+  .firstTable {
+    position: relative;
+    /* top: 240px; */
+    width: 60%;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin-left: 270px;
+  }
+  
+  .secondTable {
+    position: relative;
+    width: 60%;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin-left: 270px;
+  }
+  
+  .thirdTable {
+    position: relative;
+    width: 60%;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    margin-left: 270px;
+  }
+  
+  th {
+    padding-top: 15px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .piojo {
+    position: absolute;
+    margin-top: 1300px;
+    margin: auto;
+    width: 90%;
+    border: 1px solid white;
+    margin-left: 270px;
+    padding-bottom: 50px;
+    border: 0px;
+  }
+  
+  .pato {
+    position: relative;
+    margin: auto;
+    width: 60%;
+    border: 1px solid transparent;
+    margin-left: 370px;
+    padding-bottom: 50px;
+  }
+
+/* */
